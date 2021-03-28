@@ -13,6 +13,8 @@
 		ACC77CE2261019D800A58FEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC77CCD261019D700A58FEB /* ContentView.swift */; };
 		ACC77CE3261019D800A58FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC77CCE261019D800A58FEB /* Assets.xcassets */; };
 		ACC77CE4261019D800A58FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC77CCE261019D800A58FEB /* Assets.xcassets */; };
+		ACC77CF526101ECB00A58FEB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC77CF426101ECB00A58FEB /* ResultView.swift */; };
+		ACC77CF626101ECB00A58FEB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC77CF426101ECB00A58FEB /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		ACC77CDB261019D800A58FEB /* PracticingDataFlowInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticingDataFlowInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC77CDD261019D800A58FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC77CDE261019D800A58FEB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ACC77CF426101ECB00A58FEB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				ACC77CCC261019D700A58FEB /* PracticingDataFlowInSwiftUIApp.swift */,
-				ACC77CCD261019D700A58FEB /* ContentView.swift */,
+				ACC77CEF26101E7500A58FEB /* Views */,
 				ACC77CCE261019D800A58FEB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +91,15 @@
 				ACC77CDE261019D800A58FEB /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		ACC77CEF26101E7500A58FEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACC77CCD261019D700A58FEB /* ContentView.swift */,
+				ACC77CF426101ECB00A58FEB /* ResultView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +201,7 @@
 			files = (
 				ACC77CE1261019D800A58FEB /* ContentView.swift in Sources */,
 				ACC77CDF261019D800A58FEB /* PracticingDataFlowInSwiftUIApp.swift in Sources */,
+				ACC77CF526101ECB00A58FEB /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +211,7 @@
 			files = (
 				ACC77CE2261019D800A58FEB /* ContentView.swift in Sources */,
 				ACC77CE0261019D800A58FEB /* PracticingDataFlowInSwiftUIApp.swift in Sources */,
+				ACC77CF626101ECB00A58FEB /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
