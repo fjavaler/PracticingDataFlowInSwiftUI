@@ -12,6 +12,13 @@ struct ContentView: View {
   
   var body: some View {
     NavigationView {
+      //Tertiary View due to large size of iPad
+      Text("Tertiary View")
+      
+      //Secondary View due to large size of iPad
+      Text("Secondary View")
+      
+      //Primary View due to large size of iPad
       VStack {
         Spacer()
         
